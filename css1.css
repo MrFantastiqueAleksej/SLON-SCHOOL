@@ -16,7 +16,7 @@ p {
     line-height: 1.5;
     text-align: center;
     text-indent: 50px; /*Gap in the first sentence in paragraph*/
-    text-decoration: ; /*Подчеркнуть, зачеркнуть и т.д*/
+    /*text-decoration: ;Подчеркнуть, зачеркнуть и т.д*/
     color: green;
 }
 ul {align-items: center;}
@@ -24,4 +24,13 @@ li {align-items: center;}
 table {align-items: center;}
 a {
     text-decoration: none;
+}
+
+.eee {
+    color:blueviolet
+}
+.zzz {color: yellow;
+font-size: 30px;}
+div {
+    color:aquamarine; 
 }
