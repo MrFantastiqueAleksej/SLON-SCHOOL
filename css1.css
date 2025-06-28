@@ -31,6 +31,131 @@ a {
 }
 .zzz {color: yellow;
 font-size: 30px;}
-div {
-    color:aquamarine; 
+
+#check {
+    color: red;
+}
+
+#links{
+    color:blue
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: gray
+}
+#background {
+    border-radius:;
+    border-bottom: crimson, ridge;
+    background-color: rgb(244, 171, 234)   
+}
+#elem {width: 300px;
+      height: 100px; 
+      border-radius: 10px 40px; /* можно в процентах например 10%*/
+      border: 1px solid red;}
+body {
+    background-image: url(assets_task_01jyq6584we7m8yqjrve0aw17x_1750977417_img_0.webp);
+   /* background: no-repeat; вставляет только одну картинку потом можно установить масштаб */
+   background-attachment: fixed;
+}
+ul {
+    list-style-type: georgian;
+}
+
+#parent {
+	width: 300px;
+	border: 1px solid red;
+}
+
+#child {
+	height: 100px;
+	border: 1px solid green;
+	margin: 30px;
+}
+#elem2 {
+    align-items: center;
+    color: black;
+    border: 10px solid;
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background: fuchsia;
+}
+#upper {
+    height: 100px;
+    background-color: white;
+    border-style: solid;
+}
+span {
+    display: block;
+    border: 1px solid red;
+    width: 200px;
+    height: 200x;
+}
+/*
+#e1 {
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+#e2 {
+    border: 1px solid green;
+    height: 100px;
+    width: 100px; 
+    background-color: green;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+
+}
+#e3 {
+    filter: brightness(50%);
+    border: 1px solid blue;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+} */
+#LOGO {
+    height: 100px;
+    background-color: rgb(198, 195, 202);
+    border: 1px solid black;
+    text-align: center;
+    
+}
+#content {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background-color:rgb(179, 179, 235);
+    height: 100vh;
+}
+#pricetable {
+    background-color: white;
+    font-size: large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    
+}
+td, th {
+    border: 1px solid black;
+
 }
